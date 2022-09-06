@@ -1,2 +1,2 @@
 # expgg
-Experiments of George Geer
+Experiments of Geo Geer
