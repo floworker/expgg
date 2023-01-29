@@ -103,17 +103,6 @@
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 960px) {
-  .navbar__container {
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0;
-  }
-
   .navbar__menu {
     display: grid;
     grid-template-columns: auto;
@@ -304,16 +293,6 @@
 }
 
 /* Mobile Responsive */
-@media screen and (max-width: 768px) {
-  .main__container {
-    display: grid;
-    grid-template-columns: auto;
-    align-items: center;
-    justify-self: center;
-    width: 100%;
-    margin: 0 auto;
-    height: 90vh;
-  }
 
   .main__content {
     text-align: center;
@@ -335,12 +314,6 @@
   }
 }
 
-@media screen and (max-width: 480px) {
-  .main__content h1 {
-    font-size: 2rem;
-    margin-top: 3rem;
-  }
-
   .main__content h2 {
     font-size: 2rem;
   }
@@ -357,6 +330,7 @@
 }
 
 /* Services Section */
+
 .services {
   background: #131313;
   display: flex;
@@ -456,21 +430,11 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 960px) {
-  .services {
-    height: 1600px;
-  }
-
   .services h1 {
     font-size: 2rem;
     margin-top: 12rem;
   }
 }
-
-@media screen and (max-width: 480px) {
-  .services {
-    height: 1400px;
-  }
 
   .services h1 {
     font-size: 1.2rem;
@@ -482,6 +446,7 @@
 }
 
 /* Footer CSS */
+
 .footer__container {
   background-color: #141414;
   padding: 5rem 0;
@@ -583,11 +548,6 @@
   color: #fff;
 }
 
-@media screen and (max-width: 820px) {
-  .footer__links {
-    padding-top: 2rem;
-  }
-
   #footer__logo {
     margin-bottom: 2rem;
   }
@@ -602,13 +562,5 @@
 
   .social__media--wrap {
     flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .footer__link--items {
-    margin: 0;
-    padding: 10px;
-    width: 100%;
   }
 }
