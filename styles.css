@@ -56,7 +56,7 @@
   height: 80px;
 }
 .navbar__links {
-  color: #fff;
+  color: #fdfbe7;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,7 +83,7 @@
   outline: none;
   border-radius: 4px;
   background: #f77062;
-  color: #fff;
+  color: #fdfbe7;
 }
 .button:hover {
   background: #722DBE;
@@ -132,7 +132,7 @@
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: #fff;
+    background: #fdfbe7;
   }
   .navbar__item {
     width: 100%;
@@ -228,7 +228,7 @@
   padding: 14px 32px;
   border: none;
   border-radius: 4px;
-  color: #fff;
+  color: #fdfbe7;
   margin-top: 2rem;
   cursor: pointer;
   position: relative;
@@ -238,7 +238,7 @@
 .main__btn a {
   position: relative;
   z-index: 2;
-  color: #fff;
+  color: #fdfbe7;
   text-decoration: none;
 }
 .main__btn:after {
@@ -253,7 +253,7 @@
   border-radius: 4px;
 }
 .main__btn:hover {
-  color: #fff;
+  color: #fdfbe7;
 }
 .main__btn:hover:after {
   width: 100%;
@@ -355,7 +355,7 @@
     url('/images/-нон-.jpg');
   background-size: cover;
   position: relative;
-  color: #fff;
+  color: #fdfbe7;
 }
 .services__card:before {
   opacity: 0.2;
@@ -379,7 +379,7 @@
   left: 30px;
 }
 .services__card button {
-  color: #fff;
+  color: #fdfbe7;
   padding: 10px 20px;
   border: none;
   outline: none;
@@ -428,7 +428,7 @@
   align-items: center;
 }
 #footer__logo {
-  color: #fff;
+  color: #fdfbe7;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -457,10 +457,10 @@
   margin-bottom: 16px;
 }
 .footer__link--items > h2 {
-  color: #fff;
+  color: #fdfbe7;
 }
 .footer__link--items a {
-  color: #fff;
+  color: #fdfbe7;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
@@ -470,7 +470,7 @@
 }
 /* Social Icons */
 .social__icon--link {
-  color: #fff;
+  color: #fdfbe7;
   font-size: 24px;
 }
 .social__media {
@@ -492,7 +492,7 @@
   width: 240px;
 }
 .social__logo {
-  color: #fff;
+  color: #fdfbe7;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
