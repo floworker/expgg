@@ -226,8 +226,8 @@
 }
 .main__btn {
   font-size: 1rem;
-  background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
-  padding: 14px 32px;
+  background-image: linear-gradient(to top, #97D2C2 0%, #796785 100%);
+  padding: 1px 1px;
   border: none;
   border-radius: 4px;
   color: #fdfbe7;
@@ -240,7 +240,7 @@
 .main__btn a {
   position: relative;
   z-index: 2;
-  color: #fdfbe7;
+  color: #F0EED4;
   text-decoration: none;
 }
 .main__btn:after {
@@ -250,7 +250,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #E57158;
+  background: #77322D;
   transition: all 0.35s;
   border-radius: 4px;
 }
@@ -260,6 +260,7 @@
 .main__btn:hover:after {
   width: 100%;
 }
+
 .main__img--container {
   text-align: center;
 }
