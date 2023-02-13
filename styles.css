@@ -227,7 +227,7 @@
 .main__btn {
   font-size: 1rem;
   background-image: linear-gradient(to top, #97D2C2 0%, #131313 10%);
-  padding: 1px 50px;
+  padding: 1px 10px;
   border: none;
   border-radius: 10px;
   color: #fdfbe7;
