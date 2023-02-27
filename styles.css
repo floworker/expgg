@@ -424,11 +424,13 @@
 /* Footer CSS */
 .footer__container {
   background-color: #f0eed4;
-  padding: 5rem 0;
+  padding: 0rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100vh;
 }
 #footer__logo {
   color: #fdfbe7;
