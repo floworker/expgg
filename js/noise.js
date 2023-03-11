@@ -1,6 +1,3 @@
- 
-
-<script>
 const noise = () => {
     let canvas, ctx;
 
@@ -79,6 +76,3 @@ const noise = () => {
 };
 
 noise();
-  
-</script>
-        
