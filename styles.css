@@ -48,29 +48,11 @@
 .fa-gem {
   margin-right: 0.5rem;
 }
-.navbar__menu {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  text-align: center;
-}
-.navbar__item {
-  height: 80px;
-}
 
 
 
 
-  #mobile-menu {
-    position: absolute;
-    top: 20%;
-    right: 5%;
-    transform: translate(5%, 20%);
-  }
-  .navbar__toggle .bar {
-    display: block;
-    cursor: pointer;
-  }
+
   #mobile-menu.is-active .bar:nth-child(2) {
     opacity: 0;
   }
