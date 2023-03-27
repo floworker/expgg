@@ -176,7 +176,7 @@
     transform: translateY(-8px) rotate(-45deg);
   }
 }
-/* Main Content CSS */
+/*- Main Cntnt -*/
 .main {
   background-color: #141414;
 }
@@ -268,7 +268,7 @@
   height: 80%;
   width: 80%;
 }
-/* Mobile Responsive */
+/*- Mobile Rspnsv -*/
 @media screen and (max-width: 768px) {
   .main__container {
     display: grid;
@@ -312,7 +312,7 @@
     margin: 2.5rem 0;
   }
 }
-/* Services Section */
+/*- Services Sctn -*/
 .services {
   background: #131313;
   display: flex;
@@ -421,7 +421,7 @@
     width: 300px;
   }
 }
-/* Footer CSS */
+/*- Footer Stl -*/
 .footer__container {
   background-color: #f0eed4;
   padding: 0rem 0;
@@ -473,7 +473,7 @@
   color: #e9e9e9;
   transition: 0.3s ease-out;
 }
-/* Social Icons */
+/*- Social Icns -*/
 .social__icon--link {
   color: #fdfbe7;
   font-size: 24px;
