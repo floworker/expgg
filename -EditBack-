@@ -1,5 +1,7 @@
 
 
+/// (from 227 to 262) - Styles CSS
+
 /// .main__btn {
   font-size: 1rem;
   background-image: linear-gradient(to top, #97D2C2 0%, #131313 10%);
@@ -55,3 +57,6 @@
             <a href="info.html" onclick="route()">Info</a>
           </li></button>
     </span>
+
+
+
