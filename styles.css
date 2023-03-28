@@ -448,7 +448,10 @@
     margin-top: 2rem;
     font-size: 1.5rem;
   }
-
+  .main__btn {
+    padding: 12px 36px;
+    margin: 2.5rem 0;
+  }
 }
 /*- Services Sctn -*/
 .services {
