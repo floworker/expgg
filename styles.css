@@ -235,6 +235,43 @@
   font-weight: 700;
 }
 
+.main__btn {
+  font-size: 1rem;
+  background-image: linear-gradient(to top, #97D2C2 0%, #131313 10%);
+  padding: 1px 10px;
+  border: none;
+  border-radius: 10px;
+  color: #fdfbe7;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+.main__btn a {
+  position: relative;
+  z-index: 2;
+  color: #F0EED4;
+  text-decoration: none;
+}
+.main__btn:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #77322D;
+  transition: all 0.35s;
+  border-radius: 4px;
+}
+.main__btn:hover {
+  color: #fdfbe7;
+}
+.main__btn:hover:after {
+  width: 100%;
+}
+
 .cyber-btn-border {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 85% 100%, 9% 100%, 0 70%);
   background-color: #2E7378;
