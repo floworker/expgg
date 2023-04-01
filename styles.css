@@ -75,6 +75,7 @@ a:active {
   margin-left: auto;
   padding-right: 50px;
   padding-left: 50px;
+  text-decoration: none;
 }
 #navbar__logo {
   background-color: #691711;
@@ -121,6 +122,7 @@ a:active {
   align-items: center;
   padding: 0 1rem;
   width: 100%;
+  text-decoration: none;
 }
 .button {
   display: flex;
@@ -139,10 +141,12 @@ a:active {
 .button:hover {
   background: #722DBE;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 .navbar__links:hover {
   color: #f77062;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 @media screen and (max-width: 960px) {
   .navbar__container {
@@ -174,6 +178,7 @@ a:active {
     z-index: 99;
     height: 50vh;
     font-size: 1.6rem;
+    text-decoration: none;
   }
   #navbar__logo {
     padding-left: 25px;
@@ -193,6 +198,7 @@ a:active {
     padding: 2rem;
     width: 100%;
     display: table;
+    text-decoration: none;
   }
   .navbar__btn {
     padding-bottom: 2rem;
@@ -254,6 +260,7 @@ a:active {
 .main__content {
   color: #fceacf;
   width: 100%;
+  text-decoration: none;
 }
 .main__content h1 {
   font-size: 4rem;
@@ -293,6 +300,7 @@ a:active {
   cursor: pointer;
   position: relative;
   transition: all 0.35s;
+  text-decoration: none;
   outline: none;
 }
 .main__btn a {
@@ -310,13 +318,16 @@ a:active {
   height: 100%;
   background: #77322D;
   transition: all 0.35s;
+  text-decoration: none;
   border-radius: 4px;
 }
 .main__btn:hover {
   color: #fdfbe7;
+  text-decoration: none;
 }
 .main__btn:hover:after {
   width: 100%;
+  text-decoration: none;
 }
 
 .cyber-btn-border {
