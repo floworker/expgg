@@ -641,12 +641,12 @@ a:active {
   padding: 0rem 0;
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
-  text-align: left;
 }
+
 #footer__logo {
   color: #fdfbe7;
   display: flex;
