@@ -1,24 +1,24 @@
 
 a:link {
-  color: green;
+  color: white;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: white;
   text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: red;
+  color: #B4F9E2;
   text-decoration: none;
 }
 
 /* selected link */
 a:active {
-  color: yellow;
+  color: #B4F9E2;
   text-decoration: none;
 } 
 * {
