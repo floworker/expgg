@@ -277,6 +277,18 @@ a:active {
   font-weight: 700;
 }
 
+.main__cntnt {
+  background-color: #f0eed4;
+  padding: 0rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 90%;
+  text-decoration: none;
+}
+
 .main__btn {
   font-size: 1rem;
   background-image: linear-gradient(to top, #97D2C2 0%, #131313 10%);
