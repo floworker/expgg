@@ -230,6 +230,9 @@ a:active {
 
 .main {
   background-color: #141414;
+  width: 100%;
+  text-decoration: none;
+  height: 100%;
 }
 .main__container {
   display: grid;
