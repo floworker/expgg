@@ -249,6 +249,7 @@ a:active {
   color: #fceacf;
   width: 100%;
   text-decoration: none;
+  height: 100%;
 }
 .main__content h1 {
   font-size: 4rem;
