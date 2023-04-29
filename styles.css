@@ -312,18 +312,18 @@ a:active {
   height: 100%;
 }
 .main__containertwo {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-self: center;
   margin: 0 auto;
-  height: 90vh;
+  height: 100%;
   background-color: #131313;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .main__contenttwo {
   color: #fceacf;
