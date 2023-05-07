@@ -1,6 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
+<style>
+    
+  *, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; 
+    
+  }
+
+  body, html {
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+  }
+
+  #blackhole {
+    width: 400px;
+    height: 400px;
+    margin: 50px auto 0 auto;
+    z-index: 1;
+  }
+
+  .ring { 
+    padding: 1%;
+    border: dotted 1px white;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    box-shadow:0 0 100px rgba(255,255,255,0.2);
+    background-color: black;
+    -webkit-animation: spin 30s infinite linear;
+    animation: spin 30s infinite linear;
+    z-index: 1;
+    
+  }
+
+
+  @-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  @-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+  }
+  @keyframes spin {
+    100% {
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg);
+      transform:rotate(360deg);
+    }
+  }
+    
+    </style>
+    
    
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -47,27 +101,125 @@
 
 <body>
   
+  <style>        
+ .html {
+  overflow: hidden;
+}
+.shape {
+  box-shadow: 10 20 0 5px rgba(94, 99, 25, 77.85);
+  height: 20%;
+  width: 30%;
+  transform: rotate(75deg);
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+.shape:before,
+.shape:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 0 0 5px rgba(0, 255, 207, 0.5);
+}
+.shape,
+.shape:before,
+.shape:after {
+  animation: spin 5s ease infinite;
+  border-radius: 50%;
+}
+.shape:before {
+  animation-delay: 0.96s;
+}
+.shape:after {
+  animation-delay: 2.32s;
+}
+.shape:nth-child(2) {
+  animation-delay: 0.99s;
+}
+@keyframes spin {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: scale(0.25) rotateX(-560deg);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+  </style>
+        <div class="shape"></div>
+  
   <div class="maintwo">
     <div class="main__contenttwo">
 <div class="main__containertwo">
-
-          <section class="open-book">
-                <p>
-                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum sed dolor non mattis. Nullam facilisis vulputate dui, quis euismod elit scelerisque ac. Aliquam sit amet pharetra augue. Sed ut libero a sapien sagittis condimentum feugiat sed risus. Proin eu erat ac sem molestie eleifend. Nullam enim nibh, viverra eu accumsan ac, laoreet vitae quam. Ut a dolor massa. Nullam laoreet massa lectus, eu ullamcorper diam condimentum id. Donec luctus, quam ut commodo suscipit, tellus lorem ultrices neque, eget commodo dolor odio sit amet mauris. Pellentesque congue, metus a placerat eleifend, neque justo tempus sem, eget consectetur mauris eros non diam.
-
-Ut ut massa laoreet odio commodo tincidunt vitae in tellus. Integer et pharetra tellus. Pellentesque pellentesque nisl non libero sollicitudin sollicitudin. Duis sed ex in nibh viverra rutrum. Vestibulum ultrices ante orci, vitae faucibus turpis dapibus in. Cras efficitur pellentesque quam in luctus. Sed mollis bibendum erat eget ultrices.
-Proin eu magna vitae ante cursus dapibus quis non ante. Proin malesuada dolor a elit tincidunt, sed porta lacus pretium. Vivamus at magna eleifend, accumsan neque vel, dignissim mauris. Integer suscipit vestibulum justo in ornare. Donec dui neque, tristique et neque et, porta venenatis eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque quis velit vulputate nulla faucibus ullamcorper. Nam lorem urna, porttitor vitae luctus sed, molestie id lacus.
-                    </p>
-                <br> <p>
-                     Ut ut massa laoreet odio commodo tincidunt vitae in tellus. Integer et pharetra tellus. Pellentesque pellentesque nisl non libero sollicitudin sollicitudin. Duis sed ex in nibh viverra rutrum. Vestibulum ultrices ante orci, vitae faucibus turpis dapibus in. Cras efficitur pellentesque quam in luctus. Sed mollis bibendum erat eget ultrices.
-Proin eu magna vitae ante cursus dapibus quis non ante.
-                     </p>
-                 </section>
-  
+<br>
+  <center><h5><i><p style="color:Aquamarine;"> ... АумЪ ...</p></i></h5><br><br>
+    </center>
+     
       </div>
     </div>
     </div>
+   <canvas id="noise" class="noise"></canvas>
+  <div id="blackhole">
+
+  <div class="ring"> 
+    <div class="ring">
+      <div class="ring">
+        <div class="ring">
+          <div class="ring">
+            <div class="ring">
+              <div class="ring">
+                <div class="ring">
+                  <div class="ring">
+                    <div class="ring">
+                      <div class="ring">
+                        <div class="ring">
+                          <div class="ring">
+                            <div class="ring">
+                              <div class="ring">
+                                <div class="ring">
+                                  <div class="ring">
+                                    
+
   
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  
+            
+          <script src="js/noise.js"></script>
+     </div>
+  </div>
+   </div>
+  
+        
+    </div>
+    </div>    
+
   
   </body>
 </html>
