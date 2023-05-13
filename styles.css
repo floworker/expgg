@@ -9,24 +9,38 @@
     position: relative;
   
 }
+
+.open-booktwo {
+    background: #000000;
+    box-shadow: rgba(0,0,0,0.5) 0 1em 3em;
+    color: #1F1F1F;
+    padding: 3em;
+    height: 100%;
+    width: 100%;
+}
+
+.open-booktwo * {
+    position: relative;
+}
+
 a:link {
   color: white;
   text-decoration: none;
 }
 
-/* visited link */
+/* visitedlink */
 a:visited {
   color: white;
   text-decoration: none;
 }
 
-/* mouse over link */
+/* mouseoverlink */
 a:hover {
   color: #B4F9E2;
   text-decoration: none;
 }
 
-/* selected link */
+/* selectedlink */
 a:active {
   color: #B4F9E2;
   text-decoration: none;
